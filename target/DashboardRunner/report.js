@@ -19,7 +19,7 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iNavigateToInterviewPrep()"
 });
-formatter.write("2021-02-28 11:07:40 PASS: Successfully navigated to the url");
+formatter.write("2021-02-28 14:46:36 PASS: Successfully navigated to the url");
 formatter.result({
   "status": "passed"
 });
@@ -30,7 +30,7 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iShouldSeeThePage(String)"
 });
-formatter.write("2021-02-28 11:07:43 PASS: Login page is displayed");
+formatter.write("2021-02-28 14:46:39 PASS: Login page is displayed");
 formatter.embedding("image/png", "embedded0.png", null);
 formatter.result({
   "status": "passed"
@@ -42,7 +42,7 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iEnterInTheInputBox(String,String)"
 });
-formatter.write("2021-02-28 11:07:45 PASS: admin@yahoo.com was entered in Enter Username input box successfully");
+formatter.write("2021-02-28 14:46:41 PASS: admin@yahoo.com was entered in Enter Username input box successfully");
 formatter.embedding("image/png", "embedded1.png", null);
 formatter.result({
   "status": "passed"
@@ -54,7 +54,7 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iEnterInTheInputBox(String,String)"
 });
-formatter.write("2021-02-28 11:07:46 PASS: adminuser123 was entered in Enter Password input box successfully");
+formatter.write("2021-02-28 14:46:43 PASS: adminuser123 was entered in Enter Password input box successfully");
 formatter.embedding("image/png", "embedded2.png", null);
 formatter.result({
   "status": "passed"
@@ -66,7 +66,7 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iClickButton(String)"
 });
-formatter.write("2021-02-28 11:07:48 PASS: Login button was successfully clicked ");
+formatter.write("2021-02-28 14:46:47 PASS: Login button was successfully clicked ");
 formatter.embedding("image/png", "embedded3.png", null);
 formatter.result({
   "status": "passed"
@@ -78,7 +78,7 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iShouldSeeThePage(String)"
 });
-formatter.write("2021-02-28 11:07:52 PASS: Home page is displayed");
+formatter.write("2021-02-28 14:46:51 PASS: Home page is displayed");
 formatter.embedding("image/png", "embedded4.png", null);
 formatter.result({
   "status": "passed"
@@ -90,7 +90,7 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.iClickLink(String)"
 });
-formatter.write("2021-02-28 11:07:56 PASS: Manage Access was successfully clicked ");
+formatter.write("2021-02-28 14:46:55 PASS: Manage Access was successfully clicked ");
 formatter.result({
   "status": "passed"
 });
@@ -121,11 +121,11 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.iEnterTheFollowingValuesInTheFollowingFields(String,String\u003e)"
 });
-formatter.write("2021-02-28 11:07:56 PASS: Will was entered in First Name input box successfully");
+formatter.write("2021-02-28 14:46:55 PASS: Will was entered in First Name input box successfully");
 formatter.embedding("image/png", "embedded5.png", null);
-formatter.write("2021-02-28 11:07:56 PASS: Smith was entered in Last Name input box successfully");
+formatter.write("2021-02-28 14:46:58 PASS: Smith was entered in Last Name input box successfully");
 formatter.embedding("image/png", "embedded6.png", null);
-formatter.write("2021-02-28 11:07:57 PASS: will.smith@gmail.com was entered in E-mail input box successfully");
+formatter.write("2021-02-28 14:46:59 PASS: will.smith@gmail.com was entered in E-mail input box successfully");
 formatter.embedding("image/png", "embedded7.png", null);
 formatter.result({
   "status": "passed"
@@ -137,7 +137,7 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.iChooseFromDropdown(String,String)"
 });
-formatter.write("2021-02-28 11:07:57 PASS: Instructor was successfully selected from dropdown Role");
+formatter.write("2021-02-28 14:47:01 PASS: Instructor was successfully selected from dropdown Role");
 formatter.embedding("image/png", "embedded8.png", null);
 formatter.result({
   "status": "passed"
@@ -149,7 +149,7 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.iChooseFromDropdown(String,String)"
 });
-formatter.write("2021-02-28 11:07:58 PASS: 10 was successfully selected from dropdown Batch");
+formatter.write("2021-02-28 14:47:02 PASS: 10 was successfully selected from dropdown Batch");
 formatter.embedding("image/png", "embedded9.png", null);
 formatter.result({
   "status": "passed"
@@ -161,7 +161,7 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iClickButton(String)"
 });
-formatter.write("2021-02-28 11:07:58 PASS: Add User button was successfully clicked ");
+formatter.write("2021-02-28 14:47:04 PASS: Add User button was successfully clicked ");
 formatter.embedding("image/png", "embedded10.png", null);
 formatter.result({
   "status": "passed"
@@ -205,8 +205,8 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.verifyTheFollowingUserExistsInTheTable(String,String\u003e)"
 });
-formatter.write("2021-02-28 11:08:05 PASS: The user exists in row 6");
-formatter.write("2021-02-28 11:08:05 PASS: The user exists");
+formatter.write("2021-02-28 14:47:15 PASS: The user exists in row 4");
+formatter.write("2021-02-28 14:47:15 PASS: The user exists");
 formatter.embedding("image/png", "embedded11.png", null);
 formatter.result({
   "status": "passed"
@@ -218,7 +218,7 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.iClickButtonOfUser(String,String)"
 });
-formatter.write("2021-02-28 11:08:06 PASS: Successfully clicked the button Action for will.smith@gmail.com");
+formatter.write("2021-02-28 14:47:16 PASS: Successfully clicked the button Action for will.smith@gmail.com");
 formatter.result({
   "status": "passed"
 });
@@ -229,9 +229,10 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iClickButton(String)"
 });
+formatter.write("2021-02-28 14:47:18 PASS: Edit button was successfully clicked ");
+formatter.embedding("image/png", "embedded12.png", null);
 formatter.result({
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d88.0.4324.190)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-BTGJ71BI\u0027, ip: \u002710.0.0.233\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\17173\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bb52e7a500c75ddce07bada7b7430d53\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat impls.LoginImpl.clickButton(LoginImpl.java:86)\r\n\tat steps.LoginSteps.iClickButton(LoginSteps.java:32)\r\n\tat ✽.I click \"Edit\" button(file:src/main/resources/features/manageAccess.feature:27)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "I edit the user with following",
@@ -260,8 +261,9 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.iEditTheUserWithFollowing(String,String\u003e)"
 });
+formatter.write("2021-02-28 14:47:20 PASS: All entries have updated");
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I click \"Update User\" button",
@@ -270,8 +272,10 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iClickButton(String)"
 });
+formatter.write("2021-02-28 14:47:21 PASS: Update User button was successfully clicked ");
+formatter.embedding("image/png", "embedded13.png", null);
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "verify the following user exists in the table",
@@ -312,8 +316,11 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.verifyTheFollowingUserExistsInTheTable(String,String\u003e)"
 });
+formatter.write("2021-02-28 14:47:28 PASS: The user exists in row 1");
+formatter.write("2021-02-28 14:47:28 PASS: The user exists");
+formatter.embedding("image/png", "embedded14.png", null);
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I click \"Action\" button of user \"will.smith.new@gmail.com\"",
@@ -322,8 +329,9 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.iClickButtonOfUser(String,String)"
 });
+formatter.write("2021-02-28 14:47:29 PASS: Successfully clicked the button Action for will.smith.new@gmail.com");
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I click \"Delete\" button",
@@ -332,8 +340,10 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iClickButton(String)"
 });
+formatter.write("2021-02-28 14:47:30 PASS: Delete button was successfully clicked ");
+formatter.embedding("image/png", "embedded15.png", null);
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I click \"Delete\" button in \"User Delete Window\"",
@@ -342,8 +352,10 @@ formatter.step({
 formatter.match({
   "location": "LoginSteps.iClickButtonIn(String,String)"
 });
+formatter.write("2021-02-28 14:47:34 PASS: Delete button was successfully clicked ");
+formatter.embedding("image/png", "embedded16.png", null);
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "verify the following user does NOT exist in the table",
@@ -384,8 +396,10 @@ formatter.step({
 formatter.match({
   "location": "ManageAccessSteps.verifyTheFollowingUserDoesNOTExistInTheTable(String,String\u003e)"
 });
+formatter.write("2021-02-28 14:47:46 PASS: The user does not exist as expected");
+formatter.embedding("image/png", "embedded17.png", null);
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
